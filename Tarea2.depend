@@ -59,3 +59,17 @@
 	<queue>
 	<list>
 
+1456780888 source:c:\users\luis\documents\github\estructuratarea2\evaluador.cpp
+	"Evaluador.h"
+
+1456780888 c:\users\luis\documents\github\estructuratarea2\evaluador.h
+	<iostream>
+	<queue>
+	<list>
+
+1456782141 source:c:\users\luis\documents\github\estructuratarea2\main.cpp
+	"Evaluador.h"
+	<iostream>
+	<queue>
+	<list>
+
