@@ -22,7 +22,7 @@ bool sonPares(queue<int> mi_cola)
 bool sonPares(list<int> mi_lista)
 {
     for(list<int>::iterator list_temp = mi_lista.begin(); list_temp != mi_lista.end(); list_temp++){
-        if(mi_lista.front()%2==0){
+        if(mi_lista.back()%2==0){
             mi_lista.back();
         }else
             return false;
@@ -45,25 +45,44 @@ bool existe(queue<string> mi_cola, string str)
 //devuelve true si str es un elemento de mi_cola, de lo contrario devuelve false
 bool existe(list<string> mi_lista, string str)
 {
+    for(list<string>:: iterator temp = mi_lista.begin(); temp != mi_lista.end(); temp++){
+        if(mi_lista.back()== str){
+            return true;
+        }
+        mi_lista.back();
+    }
     return false;
 }
 
 //devuelve la suma de los elementos de la cola
 int getSuma(queue<int> mi_cola)
 {
-    return -1;
+    int ac=0;
+    while(!mi_cola.empty()){
+        ac += mi_cola.front();
+        mi_cola.pop();
+    }
+    return ac;
 }
 
 //devuelve la suma de la cantidad letras de cada cadena de la lista
 int sumarLetras(list<string> mi_lista)
 {
+
+    for(list<string>::iterator temp = mi_lista.begin();temp != mi_lista.end(); temp++){
+
+    }
     return -1;
 }
 
 //Devuelve true si los elementos de la lista son estan ordenados alfabeticamente, de lo contrario devuelve false
 bool estaOrdenada(list<char>mi_lista)
 {
-    return false;
+    for(list<char>::iterator temp = mi_lista.begin();temp != mi_lista.end(); temp++){
+
+        mi_lista.back();
+    }
+    return true;
 }
 
 int main ()
