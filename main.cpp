@@ -78,9 +78,13 @@ int sumarLetras(list<string> mi_lista)
 //Devuelve true si los elementos de la lista son estan ordenados alfabeticamente, de lo contrario devuelve false
 bool estaOrdenada(list<char>mi_lista)
 {
-    for(list<char>::iterator temp = mi_lista.begin();temp != mi_lista.end(); temp++){
+    char c = '65';
 
-        mi_lista.back();
+    for(list<char>::iterator temp = mi_lista.begin();temp != mi_lista.end(); temp++){
+        if(mi_lista.back()){
+            c++;
+        }else
+            return false;
     }
     return true;
 }

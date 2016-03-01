@@ -73,3 +73,17 @@
 	<queue>
 	<list>
 
+1456846084 source:/home/luis/Escritorio/GitHub/EstructuraTarea2/Evaluador.cpp
+	"Evaluador.h"
+
+1456846084 /home/luis/Escritorio/GitHub/EstructuraTarea2/Evaluador.h
+	<iostream>
+	<queue>
+	<list>
+
+1456847316 source:/home/luis/Escritorio/GitHub/EstructuraTarea2/main.cpp
+	"Evaluador.h"
+	<iostream>
+	<queue>
+	<list>
+
